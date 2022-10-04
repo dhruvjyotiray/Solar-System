@@ -58,7 +58,7 @@ planetWeightDiv.appendChild(infoText)
     if (planetSelect.value == 'mercury') {
         planetDisplay.appendChild(mercury)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*3.6).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*3.6)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -67,7 +67,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'venus') {
         planetDisplay.appendChild(venus)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*8.9).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*8.9)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -76,7 +76,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'mars') {
         planetDisplay.appendChild(mars)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*3.7).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*3.7)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -85,7 +85,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'jupiter') {
         planetDisplay.appendChild(jupiter)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*24.8).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*24.8)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -94,7 +94,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'saturn') {
         planetDisplay.appendChild(saturn)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*10.4).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*10.4)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -103,7 +103,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'uranus') {
         planetDisplay.appendChild(uranus)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*8.7).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*8.7)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -112,7 +112,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'neptune') {
         planetDisplay.appendChild(neptune)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*11.1).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*11.1)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
@@ -121,7 +121,7 @@ planetWeightDiv.appendChild(infoText)
     } else if (planetSelect.value == 'earth') {
         planetDisplay.appendChild(earth)
         let newtonInfo = document.createElement('div')
-        newtonInfo.innerHTML = `${(massInput.value*9.8).toFixed(1)}N`
+        newtonInfo.innerHTML = `${Math.round(massInput.value*9.8)}N`
         newtonInfo.style.fontSize = '90px'
         newtonInfo.className = "weight-class"
         planetWeightDiv.appendChild(newtonInfo)
